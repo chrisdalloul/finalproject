@@ -21,10 +21,34 @@ nav {
 	background-image: url('img/professionalimage.jpg'); 
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-color: gray;
 }
 
+.motherboard {
+	position: relative;
+	top: 13%;
+	left: 12%;
+	height: 39.568%;
+	width: 34.772%;
+	background-color: pink;
+}
 
+.cpu {
+	
+}
 
+.ram {
+	
+}
 
+.gpu {
+	
+}
+
+.hdd {
+	
+}
+
+.powersupply {
+	
+}
 
