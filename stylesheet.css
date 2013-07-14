@@ -6,3 +6,16 @@
 
 /*Header Bar with Nav*/
 
+nav {
+	width: 100%;
+	height: 75px;
+	background-color: pink
+}
+
+/*Desktop Picture with links*/
+
+.desktop {
+	width: 100%;
+	background-image: url('img/professionalimage.jpg') no-repeat 0 0; 
+}
+
