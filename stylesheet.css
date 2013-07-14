@@ -3,7 +3,7 @@
 	margin: 0;
 	padding:0;
 }
-
+	
 /*Header Bar with Nav*/
 
 nav {
@@ -16,6 +16,15 @@ nav {
 
 .desktop {
 	width: 100%;
-	background-image: url('img/professionalimage.jpg') no-repeat 0 0; 
+	height: 715px;
+	margin-top: 50px;
+	background-image: url('img/professionalimage.jpg'); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: gray;
 }
+
+
+
+
 
