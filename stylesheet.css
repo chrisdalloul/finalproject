@@ -3,83 +3,132 @@
 	margin: 0;
 	padding:0;
 }
+
+html, body {
+	height: 100%
+}
 	
 /*Header Bar with Nav*/
 
 nav {
 	width: 100%;
-	height: 75px;
+	height: 110px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
 	background-color: blanchedalmond;
+	font-family: Oswald
+}
+
+nav h1 {
+	font-size: 16px;
+}
+
+nav h2 {
+	font-size: 14px;
+}
+
+.faq {
+	font-size: 14px;
+}
+
+.navlinks {
+	font-size: 12px;
+}
+
+.navlinks a {
+	padding-right: 2px;
+	border-right: 2px solid black;
+}
+
+.navlinks a:first-child {
+	padding-left: 2px;
+	border-left: 2px solid black;
+}
+
+.logo {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-color: pink;
 }
 
 /*Desktop Picture with links*/
 
 .desktop {
 	width: 100%;
-	height: 715px;
-	margin-top: 50px;
-	background-image: url('img/professionalimage.jpg'); 
-	background-size: 100%;
-	background-repeat: no-repeat;
+	margin-top: 150px;
 }
 
-.motherboard {
+.sidepic {
+	width: 100%;
+	height: 100%;
 	position: relative;
-	top: 13%;
-	left: 12%;
-	height: 39.568%;
-	width: 34.772%;
+}
+
+.motherboard, .cpu, .ram, .gpu, .hdd, .powersupply {
+	position: relative;
+}
+.motherboard {
+	top: 35%;
+	left: 10%;
+	height: 41%;
+	width: 38%;
 	background-color: lightgoldenrodyellow;
 	z-index: 10;
 }
 
-.cpu {
-	position: relative;
-	top: ;
-	left: ;
-	height: ;
-	width: ;
-	background-color: blue;
+.cpu, .ram, .gpu, .hdd, .powersupply {
 	z-index: 15;
 }
 
+.cpu {
+	top: ;
+	left: ;
+	height': ;
+	width: ;
+	background-color: blue;
+}
+	
 .ram {
-	position: relative;
 	top: ;
 	left: ;
 	height: ;
 	width: ;
 	background-color: red;
-	z-index: 15;
 }
 
 .gpu {
-	position: relative;
 	top: ;
 	left: ;
 	height: ;
 	width: ;
 	background-color: green;
-	z-index: 15;
 }
 
 .hdd {
-	position: relative;
 	top: ;
 	left: ;
 	height: ;
 	width: ;
 	background-color: smokewhite;
-	z-index: 15;
 }
 
 .powersupply {
-	position: relative;
 	top: 12.5%;
 	left: 8%;
 	height: 10%;
 	width: 30%;
 	background-color: pink;
-	z-index: 15;
 }
 
+/*Footer*/
+
+.footer {
+	width: 100%;
+	height: 70px;
+	background-color: pink;
+}
