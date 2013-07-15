@@ -7,6 +7,20 @@
 html, body {
 	height: 100%
 }
+
+.navlinks {
+	font-size: 12px;
+}
+
+.navlinks a {
+	padding-right: 2px;
+	border-right: 2px solid black;
+}
+
+.navlinks a:first-child {
+	padding-left: 2px;
+	border-left: 2px solid black;
+}
 	
 /*Header Bar with Nav*/
 
@@ -33,21 +47,7 @@ nav h2 {
 	font-size: 14px;
 }
 
-.navlinks {
-	font-size: 12px;
-}
-
-.navlinks a {
-	padding-right: 2px;
-	border-right: 2px solid black;
-}
-
-.navlinks a:first-child {
-	padding-left: 2px;
-	border-left: 2px solid black;
-}
-
-.logo {
+.logotop {
 	height: 70px;
 	width: 70px;
 	position: absolute;
@@ -71,6 +71,7 @@ nav h2 {
 
 .motherboard, .cpu, .ram, .gpu, .hdd, .powersupply {
 	position: relative;
+	opacity: 50%;
 }
 .motherboard {
 	top: 35%;
@@ -130,5 +131,34 @@ nav h2 {
 .footer {
 	width: 100%;
 	height: 70px;
+	background-color: blanchedalmond;
+}
+
+.externallinks {
+	display: inline-block;
+	margin-left: 60px;
+	padding-top: 7px;
+}
+
+.logobot {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	display: inline-block;
+	float: left;
 	background-color: pink;
+}
+
+.navlinksbot {
+	float: right;
+	margin-top: 15px;
+	margin-right: 25px;
+}
+
+.credcopy {
+	position: absolute;
+	right: 25px;
+	margin-top: 35px;
 }
