@@ -1,0 +1,43 @@
+FAQ
+Why should I build a computer rather than simply buy a prebuilt one?
+* Many people choose building a computer because simply it will save you money. Building a computer reduces all of the ridiculous fees built into the prebuilt prices to none. 
+* Building a computer allows you to pick the parts for your needs. Not a “one-size-fits-all” kind of deal. Focusing on gaming? Pick a good graphics card. Looking to store a lot of data? Simply put more of your budget into your storage. 
+* Prebuilt computers are notorious for pre-installing bloatware onto your pc, thus slowing it down. It could take several hours to remove all of the bloatware, and in those hours even a novice could build a computer. 
+* Warranties for individual products last much longer than one that comes with a prebuilt system. 
+* Building a computer is a great experience, and allows you to learn quite a bit of knowledge about computers. 
+Where should I begin?
+1. Set a budget if you’re determined to build a computer
+2. Use this site and others to learn about computer parts and which parts are right for you
+a. Keep in mind of ongoing deals on sites like newegg.com, or amazon.com
+b. If you have a microcenter near you, go there!
+How do I use this site?
+When on the homepage, by clicking on a computer part, e.g. the CPU, it will redirect you to the informational page on this site about CPU’s. 
+
+CPU PAGE
+Skip to: Intel/AMD/Aftermarket CPU Coolers
+Basic Info about CPU’s
+The CPU, or Central Processing Unit, is the brains of the computer. It is also referred as the processor. The CPU performs lots of calculations, really fast, thus causing it to heat up so it needs a fan just for itself! Everything that you see on a computer has gone through the CPU, imagine it as a bridge. CPU’s are constantly being replaced by newer and better versions, and often times even new bridges (a bridge is referred to the connection between the motherboard and CPU) are made to maximize a CPU’s performance. When choosing a CPU, look at the number of cores, the Ghz (speed the CPU runs at), and whether it is overclockable or not. To overclock a CPU is to make it run more calculations than the manufacturer recommends, which is alright as long as you have the proper cooling system for it. 
+
+Intel CPU’s
+Intel CPU’s have a reputation of power, especially for their non-outrageous prices. For tasks such as gaming, Intel CPU’s are much better to get than AMD’s current offerings. Intel’s chips have a higher price when being compared to AMD, but their price is payed by frames per second in their games, editing software, or other programs that are CPU intensive. 
+
+AMD CPU’s
+AMD CPU’s are renowned for their cheap price/performance ratio. They make very high quality cheap processors, and amazing expensive cards that will destroy anything you throw at it for years to come. By choosing AMD, you choose price over performance, but make sure to buy an AMD-compatible motherboard!
+
+Aftermarket CPU Coolers
+Aftermarket CPU coolers are CPU fans, whether water cooling or not, that you buy separately from your CPU purchase. These fans perform much better than the stock fans that come with Intel and AMD products. By purchasing an aftermakert CPU cooler you allow the room for overclocking, so in years to come when your CPU will struggle with the modern games, simply overclock  it and your fan will do the dirty work. Know your limit when overclocking though, great external links are in the footer. 
+
+GPU PAGE
+Skip to: nVidia/AMD
+POWER SUPPLY PAGE
+Skip to: How much Wattage is needed
+RAM PAGE
+Skip to: Deciding the amount of RAM
+HDD/SSD PAGE
+Skip to: SSD
+MOTHERBOARD PAGE
+CASE PAGE
+OTHER PAGE
+Skip to: Fans/Optical Drives/WiFi Cards/
+
+
