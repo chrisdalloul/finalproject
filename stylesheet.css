@@ -79,6 +79,7 @@ nav h3 .navlinks {
 	right: 60px;
 
 }
+
 .faq {
 	font-size: 16px;
 }
@@ -99,6 +100,7 @@ nav h3 .navlinks {
 	width: 100%;
 	margin-top: 150px;
 	margin-bottom: 50px;
+	position: relative;
 }
 
 .sidepic {
@@ -112,10 +114,10 @@ nav h3 .navlinks {
 	opacity: .5;
 }
 .motherboard {
-	top: 35%;
-	left: 10%;
-	height: 41%;
-	width: 38%;
+	top: 15%;
+	left: 8%;
+	height: 54%;
+	width: 41%;
 	background-color: lightgoldenrodyellow;
 	z-index: 10;
 }
@@ -125,41 +127,41 @@ nav h3 .navlinks {
 }
 
 .cpu {
-	top: 44.5%;
+	top: 24%;
 	left: 24%;
-	height: 12%;
-	width: 14.5%;
+	height: 17%;
+	width: 15%;
 	background-color: blue;
 }
 	
 .ram {
-	top: 40%;
+	top: 21%;
 	left: 40%;
-	height: 20%;
+	height: 23%;
 	width: 5%;
 	background-color: red;
 }
 
 .gpu {
-	top: 60%;
-	left: 10%;
-	height: 8%;
+	top: 46%;
+	left: 8%;
+	height: 11%;
 	width: 45%;
 	background-color: green;
 }
 
 .hdd {
-	top: 60%;
-	left: 66%;
-	height: 4%;
-	width: 16%;
+	top: 45%;
+	left: 65%;
+	height: 6%;
+	width: 18%;
 	background-color: purple;
 }
 
 .powersupply {
-	top: 82%;
+	top: 75%;
 	left: 7.5%;
-	height: 13%;
+	height: 18%;
 	width: 30%;
 	background-color: pink;
 }
