@@ -50,30 +50,12 @@ nav {
 	top: 0;
 	left: 0;
 	text-align: center;
+	margin-top: 10px;
 	background: url(graphpaperbentcorners.jpg);
 	border-bottom: 5px solid gray;
 }
 
-nav h1 {
-	font-size: 28px;
-	position: absolute;
-	top: 15px;
-	left: 120px;
-}
 
-nav h2 {
-	font-size: 14px;
-	position: absolute;
-	top: 50px;
-	left: 120px;
-}
-
-nav h3 .faq {
-	position: absolute;
-	top: 23px;
-	right: 44px;
-
-}
 
 nav h3 .navlinks {
 	position: absolute;
@@ -213,6 +195,9 @@ nav h3 .navlinks {
 /*Responsive Design*/
 
 @media screen and (max-width: 1025px) {
+	nav {
+		height: 120px;
+	}
 	.faq {
 		width: 290px;
 		height: 21px;
@@ -227,5 +212,47 @@ nav h3 .navlinks {
 		position: absolute;
 		top: 95px;
 		right: 40px;
+	}
+}
+@media screen and (min-width: 510px) {
+	
+	nav h1 {
+		font-size: 28px;
+		position: absolute;
+		top: 15px;
+		left: 120px;
+	}
+
+	nav h2 {
+		font-size: 14px;
+		position: absolute;
+		top: 50px;
+		left: 120px;
+	}
+
+	nav h3 .faq {
+		position: absolute;
+		top: 23px;
+		right: 44px;
+
+	}
+}
+@media screen and (max-width: 510px) {
+	.logotop {
+		display: none;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav h1 {
+		font-size: 24px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	nav h2 {
+		font-size: 10px;
 	}
 }
