@@ -57,12 +57,7 @@ nav {
 
 
 
-nav h3 .navlinks {
-	position: absolute;
-	top: 50px;
-	right: 44px;
 
-}
 
 .faq {
 	font-size: 16px;
@@ -208,11 +203,6 @@ nav h3 .navlinks {
 		right: 0px;
 	}
 
-	nav span.navlinks {
-		position: absolute;
-		top: 95px;
-		right: 40px;
-	}
 }
 @media screen and (min-width: 510px) {
 	
@@ -236,7 +226,14 @@ nav h3 .navlinks {
 		right: 44px;
 
 	}
+
+	nav h3 .navlinks {
+	position: absolute;
+	top: 95px;
+	right: 40px;
+	}
 }
+
 @media screen and (max-width: 510px) {
 	.logotop {
 		display: none;
@@ -254,5 +251,11 @@ nav h3 .navlinks {
 
 	nav h2 {
 		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 395px) {
+	.faq {
+		margin: 0 auto;
 	}
 }
