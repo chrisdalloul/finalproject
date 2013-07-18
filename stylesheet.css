@@ -193,10 +193,12 @@ nav {
 	nav {
 		height: 120px;
 	}
+
 	.faq {
 		width: 290px;
 		height: 21px;
 	}
+	
 	.faq a {
 		position: absolute;
 		top: 50px;
