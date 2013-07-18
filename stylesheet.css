@@ -88,11 +88,11 @@ nav {
 	position: relative;
 }
 
-.motherboard, .cpu, .ram, .gpu, .hdd, .powersupply {
+.motherboard-box, .cpu-box, .ram-box, .gpu-box, .hdd-box, .powersupply-box {
 	position: absolute;
 	opacity: .5;
 }
-.motherboard {
+.motherboard-box {
 	top: 15%;
 	left: 8%;
 	height: 54%;
@@ -101,11 +101,11 @@ nav {
 	z-index: 10;
 }
 
-.cpu, .ram, .gpu, .hdd, .powersupply {
+.cpu-box, .ram-box, .gpu-box, .hdd-box, .powersupply-box {
 	z-index: 15;
 }
 
-.cpu {
+.cpu-box {
 	top: 24%;
 	left: 24%;
 	height: 17%;
@@ -113,7 +113,7 @@ nav {
 	background-color: blue;
 }
 	
-.ram {
+.ram-box {
 	top: 21%;
 	left: 40%;
 	height: 23%;
@@ -121,7 +121,7 @@ nav {
 	background-color: red;
 }
 
-.gpu {
+.gpu-box {
 	top: 46%;
 	left: 8%;
 	height: 11%;
@@ -129,7 +129,7 @@ nav {
 	background-color: green;
 }
 
-.hdd {
+.hdd-box {
 	top: 45%;
 	left: 65%;
 	height: 6%;
@@ -137,7 +137,7 @@ nav {
 	background-color: purple;
 }
 
-.powersupply {
+.powersupply-box {
 	top: 75%;
 	left: 7.5%;
 	height: 18%;
