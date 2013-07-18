@@ -1,0 +1,143 @@
+/*General*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family: Open sans;
+	background-image: url(../img/graphpaper.jpg);
+}
+
+.navlinks {
+	font-size: 12px;
+}
+
+.navlinks a {
+	padding-right: 2px;
+	border-right: 2px solid black;
+}
+
+.navlinks a:first-child {
+	padding-left: 2px;
+	border-left: 2px solid black;
+}
+
+a {
+	text-decoration: none;
+	transition: color .3s;
+	transition: text-shadow .3s;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: #FFB700;
+	text-shadow: 1px 2px 2px black;
+}
+
+/*Header Bar with Nav*/
+
+nav {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	margin-top: 10px;
+	background: url(graphpaperbentcorners.jpg);
+	border-bottom: 5px solid gray;
+}
+
+.faq {
+	font-size: 16px;
+}
+
+.logotop {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 23px;
+	left: 20px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 98% 65%;
+}
+
+/*Responsive Design*/
+
+@media screen and (max-width: 1025px) {
+	nav {
+		height: 120px;
+	}
+
+	.faq {
+		width: 290px;
+		height: 21px;
+	}
+	
+	.faq a {
+		position: absolute;
+		top: 50px;
+		right: 0px;
+	}
+
+}
+@media screen and (min-width: 510px) {
+	
+	nav h1 {
+		font-size: 28px;
+		position: absolute;
+		top: 15px;
+		left: 120px;
+	}
+
+	nav h2 {
+		font-size: 14px;
+		position: absolute;
+		top: 50px;
+		left: 120px;
+	}
+
+	nav h3 .faq {
+		position: absolute;
+		top: 23px;
+		right: 44px;
+
+	}
+
+	nav h3 .navlinks {
+	position: absolute;
+	top: 95px;
+	right: 40px;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.logotop {
+		display: none;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav h1 {
+		font-size: 24px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	nav h2 {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 395px) {
+	.faq {
+		margin: 0 auto;
+	}
+}
