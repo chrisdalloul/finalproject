@@ -69,7 +69,7 @@ header {
 
 /*Responsive Design*/
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1080px) {
 	header {
 		height: 120px;
 	}
