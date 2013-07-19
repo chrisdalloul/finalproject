@@ -9,6 +9,7 @@ html, body {
 	font-family: Open sans, sans-serif;
 	background-image: url(../img/graphpaper.jpg);
 	background-attachment: fixed;
+	min-width: 580px;
 }
 
 .navlinks {
@@ -82,6 +83,7 @@ figure.partpic img {
 	position: absolute;
 	top: 170px;
 	left: 170px;
+	width: 360px;
 }
 .titletext h1 {
 	font-size: 56px;
