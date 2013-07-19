@@ -67,6 +67,53 @@ header {
 	background-size: 98% 65%;
 }
 
+/*Part title*/
+
+figure.partpic {
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+}
+figure.partpic img {
+	height: 140px;
+}
+.titletext {
+	position: absolute;
+	top: 170px;
+	left: 170px;
+}
+.titletext h1 {
+	font-size: 56px;
+}
+.titletext h2 {
+	font-size: 18px;
+}
+
+/*Content*/
+
+.partcontent {
+	margin-top: 340px;
+	width: 400px;
+	height: 1000px;
+	background-color: pink;
+}
+
+.basicinfo {
+	display: inline-block;
+	width: 60%;
+}
+
+.partcontent h3 {
+	font-size: 16px;
+	padding-left:15px;
+}
+
+.partcontent p {
+	font-size: 14px;
+	padding-left: 25px;
+}
+.
+
 /*Responsive Design*/
 
 @media screen and (max-width: 1080px) {
