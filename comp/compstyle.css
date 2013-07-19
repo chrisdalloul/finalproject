@@ -8,6 +8,7 @@ html, body {
 	height: 100%;
 	font-family: Open sans, sans-serif;
 	background-image: url(../img/graphpaper.jpg);
+	background-attachment: fixed;
 }
 
 .navlinks {
@@ -93,14 +94,14 @@ figure.partpic img {
 
 .partcontent {
 	margin-top: 340px;
-	width: 400px;
+	width: 500px;
 	height: 1000px;
-	background-color: pink;
 }
-
+.partcontent h3 {
+	padding: 10px 15px;
+}
 .basicinfo {
 	display: inline-block;
-	width: 60%;
 }
 
 .partcontent h3 {
@@ -112,7 +113,13 @@ figure.partpic img {
 	font-size: 14px;
 	padding-left: 25px;
 }
-.
+.quote {
+	position: absolute;
+	top: 370px;
+	right: 50px;
+	font-size: 48px;
+	padding-left: 15px;
+}
 
 /*Responsive Design*/
 
@@ -130,6 +137,19 @@ figure.partpic img {
 		position: absolute;
 		top: 50px;
 		right: 0px;
+	}
+	header h3 .navlinks {
+		position: absolute;
+		top: 80px;
+		right: 40px;
+	}
+	blockquote {
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 860px) {
+	blockquote {
+		display: none;
 	}
 
 }
@@ -153,12 +173,11 @@ figure.partpic img {
 		position: absolute;
 		top: 23px;
 		right: 44px;
-
 	}
 
 	header h3 .navlinks {
 	position: absolute;
-	top: 95px;
+	top: 96px;
 	right: 40px;
 	}
 }
@@ -166,7 +185,7 @@ figure.partpic img {
 @media screen and (max-width: 510px) {
 	.logotop {
 		display: none;
-	}
+	}f
 
 	header {
 		text-align: center;
@@ -181,6 +200,8 @@ figure.partpic img {
 	header h2 {
 		font-size: 10px;
 	}
+
+
 }
 
 @media screen and (max-width: 395px) {
