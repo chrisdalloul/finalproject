@@ -11,6 +11,9 @@ html, body {
 	font-family: Open sans, sans-serif;
 }
 
+body {
+	min-width: 100px;
+}
 .navlinks {
 	font-size: 12px;
 }
@@ -185,22 +188,10 @@ header {
 
 /*Responsive Design*/
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1025px) {
 	header {
 		height: 120px;
 	}
-
-	.faq {
-		width: 290px;
-		height: 21px;
-	}
-	
-	.faq a {
-		position: absolute;
-		top: 50px;
-		right: 0px;
-	}
-
 }
 @media screen and (min-width: 510px) {
 	
@@ -216,19 +207,6 @@ header {
 		position: absolute;
 		top: 50px;
 		left: 120px;
-	}
-
-	header h3 .faq {
-		position: absolute;
-		top: 23px;
-		right: 44px;
-
-	}
-
-	header h3 .navlinks {
-	position: absolute;
-	top: 95px;
-	right: 40px;
 	}
 }
 
@@ -253,7 +231,21 @@ header {
 }
 
 @media screen and (max-width: 395px) {
-	.faq {
+	.header {
+		height: 500px;
+	}
+	.footer {
+		text-align: center;
+	}
+	.logobot {
+		display: none;
+	}
+
+	.externallinks {
 		margin: 0 auto;
+	}
+	.navlinksbot {
+		display: none;
+		padding: 0;
 	}
 }
