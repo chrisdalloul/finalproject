@@ -12,8 +12,9 @@ html, body {
 }
 
 body {
-	min-width: 100px;
+	min-width: 540px;
 }
+
 .navlinks {
 	font-size: 12px;
 }
@@ -60,8 +61,16 @@ header {
 
 .faq {
 	font-size: 16px;
+	position: absolute;
+	top: 20px;
+	right: 10px;
 }
 
+header .navlinks {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+}
 .logotop {
 	height: 70px;
 	width: 70px;
@@ -188,12 +197,25 @@ header {
 
 /*Responsive Design*/
 
-@media screen and (min-width: 1025px) {
-	header {
-		height: 120px;
+@media screen and (max-width: 870px) {
+	.faq {
+		position: absolute;	
+		top: 80px;
+		right: 10px;
 	}
+	header {
+		height: 125px;
+	}
+	header .navlinks {
+		position: absolute;	
+		top: 100px;
+		right: 10px;
+	}
+
 }
-@media screen and (min-width: 510px) {
+
+
+@media screen and (min-width: 540px) {
 	
 	header h1 {
 		font-size: 28px;
@@ -210,42 +232,17 @@ header {
 	}
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 540px) {
 	.logotop {
 		display: none;
 	}
-
 	header {
 		text-align: center;
+		width: 540px;
 	}
-
-	header h1 {
-		font-size: 24px;
-		margin: 0 auto;
-		position: relative;
-	}
-
-	header h2 {
-		font-size: 10px;
-	}
-}
-
-@media screen and (max-width: 395px) {
-	.header {
-		height: 500px;
-	}
-	.footer {
+	.faq {
 		text-align: center;
-	}
-	.logobot {
-		display: none;
-	}
-
-	.externallinks {
 		margin: 0 auto;
 	}
-	.navlinksbot {
-		display: none;
-		padding: 0;
-	}
 }
+
