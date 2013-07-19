@@ -1,4 +1,5 @@
 /*General*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -76,18 +77,22 @@ figure.partpic {
 	position: absolute;
 	top: 180px;
 }
+
 figure.partpic img {
 	height: 140px;
 }
+
 .titletext {
 	position: absolute;
 	top: 170px;
 	left: 170px;
 	width: 360px;
 }
+
 .titletext h1 {
 	font-size: 56px;
 }
+
 .titletext h2 {
 	font-size: 18px;
 }
@@ -99,9 +104,11 @@ figure.partpic img {
 	width: 500px;
 	height: 1000px;
 }
+
 .partcontent h3 {
 	padding: 10px 15px;
 }
+
 .basicinfo {
 	display: inline-block;
 }
@@ -111,10 +118,11 @@ figure.partpic img {
 	padding-left:15px;
 }
 
-.partcontent p {
+.partcontent p, li {
 	font-size: 14px;
 	padding-left: 25px;
 }
+
 .quote {
 	position: absolute;
 	top: 370px;
@@ -140,11 +148,13 @@ figure.partpic img {
 		top: 50px;
 		right: 0px;
 	}
+
 	header h3 .navlinks {
 		position: absolute;
 		top: 80px;
 		right: 40px;
 	}
+
 	blockquote {
 		font-size: 24px;
 	}
@@ -153,7 +163,6 @@ figure.partpic img {
 	blockquote {
 		display: none;
 	}
-
 }
 @media screen and (min-width: 510px) {
 	
@@ -187,7 +196,7 @@ figure.partpic img {
 @media screen and (max-width: 510px) {
 	.logotop {
 		display: none;
-	}f
+	}
 
 	header {
 		text-align: center;
