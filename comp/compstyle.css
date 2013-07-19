@@ -85,8 +85,8 @@ figure.partpic img {
 .titletext {
 	position: absolute;
 	top: 170px;
-	left: 170px;
-	width: 360px;
+	left: 15px;
+	width: 550px;
 }
 
 .titletext h1 {
