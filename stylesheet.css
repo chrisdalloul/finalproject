@@ -105,8 +105,8 @@ header .navlinks {
 	left: 8%;
 	height: 54%;
 	width: 41%;
-	background-color: lightgoldenrodyellow;
 	z-index: 10;
+	/*background-color: lightgoldenrodyellow;*/
 }
 
 .cpu-box, .ram-box, .gpu-box, .hdd-box, .powersupply-box {
@@ -118,7 +118,7 @@ header .navlinks {
 	left: 24%;
 	height: 17%;
 	width: 15%;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 	
 .ram-box {
@@ -126,7 +126,7 @@ header .navlinks {
 	left: 40%;
 	height: 23%;
 	width: 5%;
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .gpu-box {
@@ -134,7 +134,7 @@ header .navlinks {
 	left: 8%;
 	height: 11%;
 	width: 45%;
-	background-color: green;
+	/*background-color: green;*/
 }
 
 .hdd-box {
@@ -142,7 +142,7 @@ header .navlinks {
 	left: 65%;
 	height: 6%;
 	width: 18%;
-	background-color: purple;
+	/*background-color: purple;*/
 }
 
 .powersupply-box {
@@ -150,7 +150,7 @@ header .navlinks {
 	left: 7.5%;
 	height: 18%;
 	width: 30%;
-	background-color: pink;
+	/*background-color: pink;*/
 }
 
 /*Footer*/
